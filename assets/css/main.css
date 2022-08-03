@@ -2146,6 +2146,28 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+		
+		.image.bef-avatar {
+			border-radius: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			opacity: 0;
+			transition: all 0.5s ease;
+		}	
+
+			.image.bef-avatar:before {
+				display: none;
+			}
+
+			.image.bef-avatar img {
+				border-radius: 100%;
+				width: 100%;
+			}
+
+			.image.bef-avatar:hover {
+				opacity: 1;
+			}
 
 /* List */
 
